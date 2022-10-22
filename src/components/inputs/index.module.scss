@@ -1,0 +1,31 @@
+.inputFieldContainer {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 1rem 1rem;
+}
+
+.inputFieldHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    & .inputFieldLabel {
+        font-size: 1rem;
+        color: gray;
+    }
+    & .inputFieldError {
+        font-size: 0.7rem;
+        color: red;
+        text-transform: uppercase;
+    }
+}
+
+.inputField {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 1rem;
+    padding: 0;
+    font-family: "Inter";
+}

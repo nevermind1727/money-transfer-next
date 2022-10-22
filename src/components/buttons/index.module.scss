@@ -1,0 +1,14 @@
+.authButton {
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+  font-family: "Inter";
+  outline: none;
+  border: none;
+  backgorund-color: #bebebe;
+  transition: 300ms background-color ease;
+  &:hover {
+      cursor: pointer;
+      background-color: #323232;
+  }
+}
