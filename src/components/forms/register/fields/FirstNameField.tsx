@@ -18,7 +18,7 @@ export const FirstNameField: FC<Props> = ({register, errors}) => {
                     {errors && <div className={inputStyles.inputFieldError}>{errors.message}</div>}
                 </div>
                 <div>
-                    <input id="firstName" className={inputStyles.inputField} {...register("firstName", {required: "Required", maxLength: {value: 32, message: "Max 32 characters"}})}/>
+                    <input id="firstName" className={inputStyles.inputField} {...register("firstName", {required: "Required", minLength: {value: 2, message: "Min 2 characters"}, maxLength: {value: 32, message: "Max 32 characters"}})}/>
                 </div>
             </div>
     )
