@@ -16,3 +16,9 @@ export type NavigationItem = {
   type: NavigationMethodType;
   pathname: string;
 }
+
+export type PaymentMethod = {
+  type: string;
+  last4Digits: string;
+  name: string;
+}

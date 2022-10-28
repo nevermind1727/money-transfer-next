@@ -7,8 +7,8 @@ export const NavigationSidebar = () => {
     return <nav className={styles.nav}>
         <div className={styles.navigationItemsContainer}>
             {navigationItems.map(item => 
-                <div className={styles.navItem}>
-                    <NavigationSidebarItem key={item.type} item={item} />
+                <div className={styles.navItem} key={item.type}>
+                    <NavigationSidebarItem item={item} />
                 </div>
             )}
         </div>

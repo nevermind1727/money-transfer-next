@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 48px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 12px;
+    & h2 {
+        font-weight: 500;
+        margin: 0;
+    }
+    .pendingText {
+        font-size: 36px;
+    }
+}
